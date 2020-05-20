@@ -1,4 +1,4 @@
-
+[![Build Status](https://dorn.visualstudio.com/Space%20Game%20-%20web%20-%20Pipeline/_apis/build/status/SvendDorn.mslearn-tailspin-spacegame-web?branchName=master)](https://dorn.visualstudio.com/Space%20Game%20-%20web%20-%20Pipeline/_build/latest?definitionId=32&branchName=master)
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
