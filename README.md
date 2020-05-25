@@ -1,4 +1,5 @@
-
+[![Build Status](https://dorn.visualstudio.com/Space%20Game%20-%20web%20-%20Pipeline/_apis/build/status/SvendDorn.mslearn-tailspin-spacegame-web?branchName=master)](https://dorn.visualstudio.com/Space%20Game%20-%20web%20-%20Pipeline/_build/latest?definitionId=32&branchName=master)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=SvendDorn_mslearn-tailspin-spacegame-web&metric=alert_status)](https://sonarcloud.io/dashboard?id=SvendDorn_mslearn-tailspin-spacegame-web)
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
@@ -29,3 +30,14 @@ Privacy information can be found at https://privacy.microsoft.com/en-us/
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
+
+## run application
+```
+dotnet build --configuration Release
+dotnet run --configuration Release --no-build --project Tailspin.SpaceGame.Web
+```
+
+## Test Application
+```
+dotnet test --configuration Release --no-build
+```
